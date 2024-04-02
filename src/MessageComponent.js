@@ -6,7 +6,7 @@ import message from './message';
 const MessageComponent = () => {
   // Call the message function
   const result = message();
-  const name = result.split(' ')[0];
+  const name = result.split(' ')[0];//zato sto je rezultat string, nije objekat
   const age = result.split(' ')[2];
 
   const paragraphStyle = {
